@@ -33,3 +33,7 @@ go.work.sum
 
 # Squad local team state
 .squad/
+
+# vscode
+
+.vscode
