@@ -21,7 +21,7 @@ func TestRegistryVersionNormalization(t *testing.T) {
 		latestID: map[string]string{},
 	}
 
-	if err := r.Register(Stack{ID: "x", Version: "01.002.0003"}); err != nil {
+	if err := r.Register(Stack{ID: "x", Name: "x", Version: "01.002.0003"}); err != nil {
 		t.Fatalf("expected valid version, got error: %v", err)
 	}
 
